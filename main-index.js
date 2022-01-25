@@ -1,6 +1,4 @@
 "use strict";
-/////////////////////////// --- V5 --- ///////////////////////////
-// --- Main Scroller function
 
 // |
 // |
@@ -632,7 +630,7 @@ window.addEventListener("pointermove", (theEvent) => {
 // ---
 // >>> All the event listener functions that handle the scrolling -----------
 
-// ------------------Alhamdulillah
+// ------------------ Alhamdulillah
 // --- Simplifi code
 
 // (!) --- Warnings ---
