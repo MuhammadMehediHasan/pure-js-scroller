@@ -113,10 +113,10 @@ body.activeThumbBody {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1), -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
+  -webkit-transition: -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1), -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
@@ -150,10 +150,10 @@ body.activeThumbBody {
   height: 40px;
   background-color: #ff3300;
   border-radius: 20px;
-  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
-  transition: transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1), -webkit-transform 0.7s cubic-bezier(0.2, 0.4, 0.4, 1);
+  -webkit-transition: -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
+  transition: transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1), -webkit-transform 0.65s cubic-bezier(0.2, 0.4, 0.4, 1);
 }
 
 .parentScrollContainer .scrollbarContainer .thumbContainer .thumb.activeThumb {
