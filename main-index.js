@@ -605,8 +605,8 @@ window.addEventListener("pointermove", (theEvent) => {
     // Mainly if it is a touch event
     // Making the mouse position values
     let mousePosition = [
-      Math.round(theEvent.movementX * 1.5),
-      Math.round(theEvent.movementY * 1.5),
+      Math.round(theEvent.movementX * 2),
+      Math.round(theEvent.movementY * 2),
     ];
     // Calling the scroller function for both axis's mousePosition
     mousePosition.forEach((position, indx) => {
