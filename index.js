@@ -415,8 +415,8 @@ window.addEventListener("pointermove", (theEvent) => {
     pageMoverByThumb(activeThumbAxis);
   } else if (isTuching && btnScrollAnimator === undefined) {
     let mousePosition = [
-      Math.round(theEvent.movementX * 1.5),
-      Math.round(theEvent.movementY * 1.5),
+      Math.round(theEvent.movementX * 2),
+      Math.round(theEvent.movementY * 2),
     ];
     mousePosition.forEach((position, indx) => {
       scroller(-position, indx, false, true);
